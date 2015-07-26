@@ -1,0 +1,10 @@
+#$FreeBSD: releng/10.1/sys/arm/s3c2xx0/std.ln2410sbc 266110 2014-05-15 02:41:23Z ian $
+include "../s3c2xx0/std.s3c2410"
+
+makeoptions	KERNPHYSADDR=0x30000000
+makeoptions	KERNVIRTADDR=0xc0000000
+options		KERNPHYSADDR=0x30000000	
+options		KERNVIRTADDR=0xc0000000
+options		PHYSADDR=0x30000000
+options		NO_EVENTTIMERS
+
